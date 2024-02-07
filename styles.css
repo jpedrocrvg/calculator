@@ -1,0 +1,162 @@
+body {
+    overflow: hidden;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: lato;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.calculator {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.number-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.operator-button {
+    background-color: #fff;
+    color: #000;
+}
+
+.special-button {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+.additional-content {
+    margin-top: 20px;
+}
+
+.additional-content h2 {
+    color: #333;
+}
+
+.additional-content p {
+    color: #666;
+}
+
+
+.calculator {
+    width: 280px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #bdbbbb;
+    text-align: center; 
+}
+
+@font-face {
+    font-family: 'Digital Display';
+    src: url('./Open\ 24\ Display\ St.ttf') format('truetype');
+    
+}
+
+#display {
+    justify-content: center;
+}
+
+input[type="text"] {
+    background-color: #13f14328;
+    max-width: 95%;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Digital Display';
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: end; 
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    gap: 0px;
+}
+
+button {
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+.number-button {
+    background-color: #000; 
+    color: #fff; 
+}
+
+
+.operator-button {
+    background-color: #fff; 
+    color: #000; 
+}
+
+button:hover {
+    background-color: #ccc; 
+}
+.special-button {
+
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #ad2c2c; 
+    color: #fff; 
+    transition: background-color 0.3s ease;
+}
+
+.special-button:hover {
+    background-color: #cc0000;
+}
